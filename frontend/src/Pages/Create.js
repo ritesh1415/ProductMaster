@@ -11,7 +11,6 @@ const Create = () => {
   });
 
   const handleChange = (e) => {
-    console.log("Input changed:", e.target.name, e.target.value); // Add this line
     setInput((prevState) => ({
       ...prevState,
       [e.target.name]: e.target.value,
